@@ -1,0 +1,40 @@
+@page "/"
+<h3>Estudiantes</h3>
+
+<button class="btn btn-primary" @onclick="CreateStudent">Nuevo Estudiante</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Carne</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in estudiantes)
+        {
+            <tr>
+                <td>@estudiante.Carne</td>
+                <td>@estudiante.Nombres @estudiante.Apellidos</td>
+                <td>
+                    <button class="btn btn-info" @onclick="() => EditStudent(estudiante)">Editar</button>
+                    <button class="btn btn-danger" @onclick="() => DeleteStudent(estudiante.IdEstudiante)">Eliminar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Estudiante> estudiantes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        estudiantes = await Http.GetFromJsonAsync<List<Estudiante>>("http://localhost:5000/api/estudiantes");
+    }
+
+    private void CreateStudent() { /* Lógica para crear estudiante */ }
+    private void EditStudent(Estudiante estudiante) { /* Lógica para editar estudiante */ }
+    private void DeleteStudent(int id) { /* Lógica para eliminar estudiante */ }
+}

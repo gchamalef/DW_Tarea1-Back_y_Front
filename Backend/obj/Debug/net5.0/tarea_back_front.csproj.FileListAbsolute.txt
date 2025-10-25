@@ -1,0 +1,6 @@
+C:\Users\pc01\Documents\Desarrollo_Web\DW_Tarea1-Back_y_Front\Backend\obj\Debug\net5.0\tarea_back_front.csproj.AssemblyReference.cache
+C:\Users\pc01\Documents\Desarrollo_Web\DW_Tarea1-Back_y_Front\Backend\obj\Debug\net5.0\tarea_back_front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc01\Documents\Desarrollo_Web\DW_Tarea1-Back_y_Front\Backend\obj\Debug\net5.0\tarea_back_front.AssemblyInfoInputs.cache
+C:\Users\pc01\Documents\Desarrollo_Web\DW_Tarea1-Back_y_Front\Backend\obj\Debug\net5.0\tarea_back_front.AssemblyInfo.cs
+C:\Users\pc01\Documents\Desarrollo_Web\DW_Tarea1-Back_y_Front\Backend\obj\Debug\net5.0\tarea_back_front.csproj.CoreCompileInputs.cache
+C:\Users\pc01\Documents\Desarrollo_Web\DW_Tarea1-Back_y_Front\Backend\obj\Debug\net5.0\tarea_back_front.MvcApplicationPartsAssemblyInfo.cache
