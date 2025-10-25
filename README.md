@@ -1,7 +1,5 @@
 # DW_Tarea1-Back_y_Front
 ## Schema y Tablas
-# DW_Tarea1-Back_y_Front
-## Schema y Tablas
 ```sql
 CREATE DATABASE  IF NOT EXISTS `universidad`;
 USE `universidad`;
